@@ -1,0 +1,55 @@
+/*header */
+
+header{ background-image: url(../img/french\ food.jpg) ;
+    display: flex;
+     justify-content: flex-start;
+}
+
+.div-logo{margin: 2px; border-color: white;
+padding: color white;}
+
+.logo{
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    padding: 20px solid white;
+    border: 5px   solid rgb(92, 34, 34) ;
+    right: 20px;
+}
+
+
+
+/* barra de navegacio*/
+.navegador{
+    display: flex;
+    padding-left: 0px;
+    border-bottom: 5px;
+    justify-content: space-evenly;
+}
+
+.item{
+    display: flex;
+    list-style: none;
+    
+}
+li:hover {
+    background: rgb(105, 14, 14);
+  }
+  nav{ background-color: black;
+height: 80px ;}
+
+nav li{ 
+    font-size: 60px;
+    color: white;
+}
+.titulo{
+    margin: top 15px;
+    font-size: 40px;
+    background-color: antiquewhite; 
+
+}
+
+/*titulos */
+h1{ text-align: center;
+    
+}
